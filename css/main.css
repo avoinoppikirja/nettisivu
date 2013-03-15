@@ -246,6 +246,10 @@ footer li a#sponsor-onnibus {
   background-image: url('../img/logo-onnibus.png');
 }
 
+footer li a#sponsor-satav {
+  width: 125px;
+  background-image: url('../img/logo-satavuotissaatio.png');
+}
 
 footer li a#sponsor-tek {
   width: 68px;

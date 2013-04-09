@@ -6,11 +6,11 @@
 
 @font-face {
     font-family: 'LobsterTwoRegular';
-    src: url('../fonts/LobsterTwo-Regular-webfont.eot');
-    src: url('../fonts/LobsterTwo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/LobsterTwo-Regular-webfont.woff') format('woff'),
-         url('../fonts/LobsterTwo-Regular-webfont.ttf') format('truetype'),
-         url('../fonts/LobsterTwo-Regular-webfont.svg#LobsterTwoRegular') format('svg');
+    src: url('/fonts/LobsterTwo-Regular-webfont.eot');
+    src: url('/fonts/LobsterTwo-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/LobsterTwo-Regular-webfont.woff') format('woff'),
+         url('/fonts/LobsterTwo-Regular-webfont.ttf') format('truetype'),
+         url('/fonts/LobsterTwo-Regular-webfont.svg#LobsterTwoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,13 +31,29 @@ body {
   font-family: CantarellRegular, verdata, tahoma, arial, sans-serif;
 }
 
+.hero-unit {
+ padding: 30px;
+}
+
 .hero-unit h1 {
   text-align: center;
   margin-bottom: 0.5em;
 }
 
-.hero-content {
-  margin-top: 1em;
+.span9 {
+ padding-left: 30px;
+}
+
+.span9 h1 {
+ font-size: 36pt;
+ margin-top: 20px;
+ margin-bottom: 30px;
+}
+
+.sidebar-nav {
+ padding-left: 2px;
+ padding-right: 2px;
+ margin-left: 0px;
 }
 
 .brand, h1, h2, footer .container {
